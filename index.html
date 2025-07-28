@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=warning"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>CSE-04</title>
+  </head>
+  <body class="bg-white">
+    <header>
+      <!-- Title  -->
+      <div class="bg-[#2c3e50] text-white text-center font-semibold py-2 px-2">
+        <div class="text-[14px]">
+          Department of Computer Science & Engineering
+        </div>
+        <div class="text-[10px]">Netrokona University,Netrokona</div>
+        <div class="text-[8px] px-1 py-1">Academic Portal</div>
+      </div>
+      <!-- Dark Mode Button -->
+
+      <!-- Navigation -->
+      <nav>
+        <div class="bg-blue-500">
+          <ul class="flex justify-center items-center content-evenly gap-2">
+            <li>
+              <a class="text-xs px-3 hover:text-red-500" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="text-xs px-3 hover:text-red-500" href="notice.html"
+                >Notice</a
+              >
+            </li>
+            <li>
+              <a class="text-xs px-3 hover:text-red-500" href="academic.html"
+                >Academic</a
+              >
+            </li>
+            <li>
+              <a class="text-xs px-3 hover:text-red-500" href="about.html"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div
+      class="box-content md:box-border border-2 bg-stone-100 rounded-lg my-1 border-b-slate-950"
+    >
+      <div class="px-5 py-5">
+        <div class="text-center">Welcome to our Student Portal</div>
+        <div class="text-[8px] text-center">
+          This portal is designed to help students access course materials,
+          notes, and resources for all semesters.
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="box-content md:box-border border-2 bg-stone-100 rounded-lg my-1"
+      >
+        <div
+          class="flex items-center space-x-2 text-gray-800 text-lg font-semibold"
+        >
+          <ion-icon name="megaphone-outline" class="text-xl"></ion-icon>
+          <span>Recent Notices</span>
+        </div>
+        <div class="text-[6px] text-left px-2">
+          Stay informed with the latest announcements and events at the
+          Department of CSE.
+        </div>
+        <!-- notice -01  -->
+        <div
+          class="flex box-border border-2 bg-stone-100 rounded-lg border-s-red-600 w-full"
+        >
+          <!-- Date box -->
+          <div
+            class="bg-blue-800 w-[20%] rounded-s-sm px-5 text-white font-semibold py-2 text-center"
+          >
+            17 <br />
+            JUN <br />2025
+          </div>
+
+          <!-- Notice text box -->
+          <div class="w-[80%] p-2">
+            <div class="text-blue-700 text-[12px] font-semibold py-1">
+              2nd Year 1st Semester Class Routine
+            </div>
+            <div class="text-[8px]">
+              2nd Year 1st Semester Class Routine (Session: 2022-23) is
+              scheduled to be held as per the schedule given below.
+            </div>
+            <hr class="border-t border-1 border-red-300 my-1" />
+            <div class="flex justify-between text-gray-500 text-[8px]">
+              <div>Posted by: Academic Office</div>
+              <div>
+                <a class="text-blue-700 underline" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Notice -02 -->
+        <div
+          class="flex box-border border-2 bg-stone-100 rounded-lg border-s-red-600 w-full"
+        >
+          <!-- Date box -->
+          <div
+            class="bg-blue-800 w-[20%] rounded-s-sm px-5 text-white font-semibold py-2 text-center"
+          >
+            17 <br />APR <br />2025
+          </div>
+
+          <!-- Notice text box -->
+
+          <div class="w-[80%] p-2">
+            <div class="text-blue-700 text-[12px] font-semibold py-1">
+              1st Year 2nd Semester Final Examination Schedule
+            </div>
+            <div class="text-[8px]">
+              The 1st Year 2nd Semester (Session: 2022-23) Final
+              Examination-2023 is scheduled to be held as per the schedule given
+              below.
+            </div>
+            <hr class="border-t border-1 border-red-300 my-1" />
+            <div class="flex justify-between text-gray-500 text-[8px]">
+              <div>Posted by: CR</div>
+              <div>
+                <a class="text-blue-700 underline" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <a href="#">
+            <button
+              class="items-center text-center text-[10px] border-2 bg-blue-800 rounded-full px-2 py-2 mx-2 my-2 hover:bg-red-700"
+            >
+              View All Notice
+            </button>
+          </a>
+        </div>
+      </div>
+      <!-- Academic Activities  -->
+      <div class="bg-gray-100 p-2 rounded">
+        <div class="text-2xl">Academic Activities</div>
+        <div class="text-shadow-indigo-950 text-[13px]">
+          Honours Duration: 4 years with 8 semesters
+        </div>
+        <!-- Search button  -->
+        <div class="bg-gray-100 flex items-center justify-center">
+          <div class="w-full max-w-md">
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="Search for courses, subjects, codes..."
+                class="w-full p-3 pl-4 pr-10 text-gray-700 bg-white border border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button
+                class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-gray-700"
+              >
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1st Year -->
+        <div class="bg-gray-100 p-4">
+          <div class="max-w-full mx-auto bg-white p-4 rounded-lg shadow-md">
+            <div class="mb-4">
+              <button
+                id="year1"
+                class="w-full bg-blue-500 text-white p-2 rounded-lg flex justify-between items-center"
+                onclick="toggleSection('year1-content')"
+              >
+                <span>1st Year</span>
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div id="year1-content" class="hidden mt-2">
+                <button
+                  class="w-full bg-red-500 text-white p-2 rounded-lg mb-2"
+                >
+                  1st Semester
+                </button>
+                <button class="w-full bg-red-500 text-white p-2 rounded-lg">
+                  2nd Semester
+                </button>
+              </div>
+            </div>
+            <!-- 2nd Year -->
+            <div class="mb-4">
+              <div>
+                <button
+                  id="year2"
+                  class="w-full bg-blue-500 text-white p-2 rounded-lg flex justify-between items-center"
+                  onclick="toggleSection('year2-content')"
+                >
+                  <span>2nd Year</span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="year2-content" class="hidden mt-2">
+                  <button
+                    class="w-full bg-red-500 text-white p-2 rounded-lg mb-2"
+                  >
+                    3rd Semester
+                  </button>
+                  <button class="w-full bg-red-500 text-white p-2 rounded-lg">
+                    4th Semester
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd Year -->
+            <div class="mb-4">
+              <div>
+                <button
+                  id="year3"
+                  class="w-full bg-blue-500 text-white p-2 rounded-lg flex justify-between items-center"
+                  onclick="toggleSection('year3-content')"
+                >
+                  <span>3rd Year</span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="year3-content" class="hidden mt-2">
+                  <button
+                    class="w-full bg-red-500 text-white p-2 rounded-lg mb-2"
+                  >
+                    5th Semester
+                  </button>
+                  <button class="w-full bg-red-500 text-white p-2 rounded-lg">
+                    6th Semester
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- 4th Year -->
+            <div>
+              <button
+                id="year4"
+                class="w-full bg-blue-500 text-white p-2 rounded-lg flex justify-between items-center"
+                onclick="toggleSection('year4-content')"
+              >
+                <span>4th Year</span>
+                <svg
+                  class="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              <div id="year4-content" class="hidden mt-2">
+                <button
+                  class="w-full bg-red-500 text-white p-2 rounded-lg mb-2"
+                >
+                  7th Semester
+                </button>
+                <button class="w-full bg-red-500 text-white p-2 rounded-lg">
+                  8th Semester
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="flex items-center space-x-2 p-2 bg-gray-100 rounded-md w-fit"
+        >
+          <!-- Icon -->
+          <ion-icon
+            name="people-outline"
+            class="text-blue-600 text-xl"
+          ></ion-icon>
+          <!-- Text -->
+          <span class="text-sm font-medium text-gray-800">About Us</span>
+        </div>
+        <div class="flex box-border border-2 bg-stone-100 rounded-lg w-full">
+          <div class="w-[50%]"><img src="NeU.png" alt="CSE-04th Batch" /></div>
+          <div class="flex w-[50%] h-[75%]">
+            <div class="text-[7px] px-2 py-2 mx-2 my-2">
+              We are University 5th / CSE 4th Batch students of the Department
+              of Computer Science and Engineering at Netrokona University,
+              Netrokona. This portal is designed to help us share resources,
+              notes, and study materials for our academic courses. Our batch
+              started in October 2023 and consists of talented students from all
+              over Bangladesh. We are committed to excellence in learning and
+              research in the field of Computer Science and Engineering.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javaScript.js"></script>
+  </body>
+</html>
